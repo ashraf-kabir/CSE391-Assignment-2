@@ -8,23 +8,27 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+
     <style>
         #redDiv {
             background-color: red;
             color: white;
-            border: 6px solid red;
+            border: 6px solid black;
         }
         #greenDiv {
             background-color: green;
-            color: white;
+            color: black;
+            border: 6px solid yellow;
         }
         #blueDiv {
             background-color: blue;
-            color: white;
+            color: chartreuse;
+            border: 6px solid crimson;
         }
         #yellowDiv {
             background-color: yellow;
-            color: white;
+            color: fuchsia;
+            border: 6px solid limegreen;
         }
 
     </style>
@@ -36,7 +40,7 @@
             <header class="transparent">
                 <h1>Random Quote Generator</h1>
             </header>
-            <main class="quote-box border" id="border">
+            <main class="quote-box" id="border">
 
                 <div class="quote-area">
                     <q id="quote">Random Quote</q>
@@ -65,8 +69,7 @@
 
             </main>
             <footer class="transparent">
-                <p>Coded by Sebastian - see source on <a href="https://github.com/sebam2k4/Random-Quote-Generator-JS">GitHub</a>
-                </p>
+                <p>Test123</p>
             </footer>
         </div>
         <script src="script.js"></script>
@@ -76,6 +79,7 @@
             
             function red() {
                 div.setAttribute("id", "redDiv");
+                border.setAttribute("id", "redDiv");
             }
             function green() {
                 div.setAttribute("id", "greenDiv");
