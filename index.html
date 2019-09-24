@@ -13,22 +13,26 @@
         #redDiv {
             background-color: red;
             color: white;
-            border: 6px solid black;
+            border: 15px solid black;
+            font-family: Arial;
         }
         #greenDiv {
             background-color: green;
             color: black;
-            border: 6px solid yellow;
+            border: 15px solid red;
+            font-family: Georgia;
         }
         #blueDiv {
             background-color: blue;
             color: chartreuse;
-            border: 6px solid crimson;
+            border: 15px solid crimson;
+            font-family: monospace;
         }
         #yellowDiv {
             background-color: yellow;
             color: fuchsia;
-            border: 6px solid limegreen;
+            border: 15px solid green;
+            font-family: Garamond;
         }
 
     </style>
@@ -37,7 +41,7 @@
 
     <div class="container">
         <div id="quotegen">
-            <header class="transparent">
+            <header class="transparent" style="padding-top: 10px;">
                 <h1>Random Quote Generator</h1>
             </header>
             <main class="quote-box" id="border">
@@ -49,24 +53,22 @@
                 <div class="author-area">
                     <p id="author">Author</p>
                 </div>
-
-                <div class="buttons-area">
-                    <a class="btn border-smaller" id="random-quote" href="#" title="Next Quote">Click here or Reload</a>
-                </div>
-
-                <div class="buttons-area" onclick="red()">
-                    <button class="btn">Red</button>
-                </div>
-                <div class="buttons-area" onclick="green()">
-                    <button class="btn">Green</button>
-                </div>
-                <div class="buttons-area" onclick="blue()">
-                    <button class="btn">Blue</button>
-                </div>
-                <div class="buttons-area" onclick="yellow()">
-                    <button class="btn">Yellow</button>
-                </div>
             </main>
+            <div class="buttons-area" style="padding-top: 50px">
+                <a class="btn border-smaller" id="random-quote" href="#" title="Next Quote">Click here or Reload</a>
+            </div>
+            <div class="buttons-area" onclick="red()" style="padding-top: 50px;">
+                <button class="btn">Red</button>
+            </div>
+            <div class="buttons-area" onclick="green()" style="padding-top: 50px;">
+                <button class="btn">Green</button>
+            </div>
+            <div class="buttons-area" onclick="blue()" style="padding-top: 50px;">
+                <button class="btn">Blue</button>
+            </div>
+            <div class="buttons-area" onclick="yellow()" style="padding-top: 50px;">
+                <button class="btn">Yellow</button>
+            </div>
             <footer class="transparent">
                 <p>Test123</p>
             </footer>
