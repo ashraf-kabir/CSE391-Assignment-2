@@ -12,6 +12,10 @@
         #redDiv {
             background-color: red;
             color: red;
+            border: 6px solid red;
+            -webkit-box-shadow: 4px 4px 0 3px red;
+            -moz-box-shadow: 4px 4px 0 3px red;
+            box-shadow: 4px 4px 0 3px red;
         }
         #greenDiv {
             background-color: green;
@@ -35,7 +39,7 @@
             <header class="transparent">
                 <h1>Random Quote Generator</h1>
             </header>
-            <main class="quote-box border">
+            <main class="quote-box border" id="border">
 
                 <div class="quote-area">
                     <q id="quote">Random Quote</q>
@@ -72,6 +76,7 @@
         <script>
             var div = document.getElementById("quotegen");
             var q = document.getElementById("quote");
+            var border = document.getElementById("border").className;
             
             function red() {
                 div.setAttribute("id", "redDiv");
