@@ -10,7 +10,7 @@ body {
 }
 
 .border {
-  border: 8x solid blue;
+  border: 8px solid blue;
 }
 
 .border-smaller {
@@ -29,7 +29,8 @@ body {
 
 .container {
     margin-top: -40px;
-    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
