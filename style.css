@@ -3,14 +3,10 @@ body {
     background: #ECF5B7;
     font-family: sans-serif;
     text-align: center;
-    -moz-transition: all .6s;
-    -webkit-transition: all .6s;
-    -o-transition: all .6s;
-    transition: all .6s;
 }
 
 .border {
-  border: 8px solid blue;
+    border: 8px solid blue;
 }
 
 .border-smaller {
@@ -91,7 +87,7 @@ header {
     border-radius: 1px;
     font-size: 20px;
     margin-right: 8px;
-  color: black;
+    color: black;
 }
 
 .btn:first-of-type {
