@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Part2</title>
+</head>
+<body>
+
+    <table width="50%" border="0" align="center">
+        <tr>
+            <td width="13%">Input Series of Number:</td>
+            <td width="29%"><input name="box1" type="text" id="box1"/></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Max:</td>
+            <td>
+                <div id="max"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Min:</td>
+            <td>
+                <div id="min"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Sum:</td>
+            <td>
+                <div id="sum"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Average:</td>
+            <td>
+                <div id="avg"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Reverse Order:</td>
+            <td>
+                <div id="reverse"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td></td>
+        </tr>
+    </table>
+    <button onclick="calculate()">calculate</button>
+
+    <script>
+        function calculate() {
+            var values = document.getElementById('box1').value.split(/,/g);
+            var sum = values.reduce(function (a, b) {
+                return parseInt(a) + parseInt(b);
+            });
+            document.querySelector('#max').innerHTML = values.max();
+            document.querySelector('#min').innerHTML = values.min();
+            document.querySelector('#sum').innerHTML = sum;
+            document.querySelector('#avg').innerHTML = sum / values.length;
+            document.querySelector('#reverse').innerHTML = values.reverse().join(',');
+        }
+
+        Array.prototype.max = function () {
+            return Math.max.apply(null, this);
+        };
+
+        Array.prototype.min = function () {
+            return Math.min.apply(null, this);
+        };
+    </script>
+
+</body>
+</html>
