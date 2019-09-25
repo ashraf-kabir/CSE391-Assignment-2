@@ -47,7 +47,7 @@
 
     <div class="container">
 
-        <div class="col-md-9">
+        <div class="col-md-12">
             <div id="quotegen">
                 <header class="transparent" style="padding-top: 30px;">
                     <h1>Random Quote Generator</h1>
@@ -65,23 +65,20 @@
 
             </div>
         </div>
-        <div class="col-md-9" style="padding-top: 10px;">
+        <div class="col-md-12" style="margin-top: 10px;">
             <div>
-                <a class="btn btn-primary" id="random-quote" href="#" title="Next Quote">Click here or
+                <a class="btn btn-primary" id="random-quote" href="#" title="Next Quote" style="margin-bottom: 20px;">Click here or
                                                                                          Reload</a>
             </div>
-            <div onclick="red()">
-                <button class="btn btn-primary" style="background-color: red;">Red</button>
-            </div>
-            <div onclick="green()">
-                <button class="btn btn-primary" style="background-color: green;">Green</button>
-            </div>
-            <div onclick="blue()">
-                <button class="btn btn-primary" style="background-color: blue;">Blue</button>
-            </div>
-            <div onclick="yellow()">
-                <button class="btn btn-primary" style="background-color: yellow;">Yellow</button>
-            </div>
+
+            <button class="btn btn-primary" onclick="red()" style="background-color: red; border: 4px solid black;">Red</button>
+
+            <button class="btn btn-primary" onclick="green()" style="background-color: green; border: 4px solid red;">Green</button>
+
+            <button class="btn btn-primary" onclick="blue()" style="background-color: blue; border: 4px solid red;">Blue</button>
+
+            <button class="btn btn-primary" onclick="yellow()" style="background-color: yellow; border: 4px solid green;">Yellow</button>
+
         </div>
         <script src="script.js"></script>
         <script>
@@ -106,6 +103,11 @@
             }
 
         </script>
+
+        <div class="col-md-12" style="margin-top: 100px;">
+            <h2>Hero Converter</h2>
+        </div>
+
     </div>
 
 </body>
