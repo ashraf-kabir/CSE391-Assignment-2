@@ -5,9 +5,12 @@
     <title>Random Quote Generator</title>
     <link href="reset.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
 
     <style>
         #redDiv {
@@ -16,18 +19,21 @@
             border: 15px solid black;
             font-family: Arial;
         }
+
         #greenDiv {
             background-color: green;
             color: black;
             border: 15px solid red;
             font-family: Georgia;
         }
+
         #blueDiv {
             background-color: blue;
             color: chartreuse;
             border: 15px solid crimson;
             font-family: monospace;
         }
+
         #yellowDiv {
             background-color: yellow;
             color: fuchsia;
@@ -40,54 +46,61 @@
 <body>
 
     <div class="container">
-        <div id="quotegen">
-            <header class="transparent" style="padding-top: 30px;">
-                <h1>Random Quote Generator</h1>
-            </header>
-            <main class="quote-box" id="border">
 
-                <div class="quote-area">
-                    <q id="quote">Random Quote</q>
+        <div class="col-md-9">
+            <div id="quotegen">
+                <header class="transparent" style="padding-top: 30px;">
+                    <h1>Random Quote Generator</h1>
+                </header>
+                <div class="quote-box" id="border">
+
+                    <div class="quote-area">
+                        <q id="quote">Random Quote</q>
+                    </div>
+
+                    <div class="author-area">
+                        <p id="author">Author</p>
+                    </div>
                 </div>
 
-                <div class="author-area">
-                    <p id="author">Author</p>
-                </div>
-            </main>
-            <div class="buttons-area" style="padding-top: 50px">
-                <a class="btn border-smaller" id="random-quote" href="#" title="Next Quote">Click here or Reload</a>
             </div>
-            <div class="buttons-area" onclick="red()" style="padding-top: 50px;">
-                <button class="btn">Red</button>
+        </div>
+        <div class="col-md-9" style="padding-top: 10px;">
+            <div>
+                <a class="btn btn-primary" id="random-quote" href="#" title="Next Quote">Click here or
+                                                                                         Reload</a>
             </div>
-            <div class="buttons-area" onclick="green()" style="padding-top: 50px;">
-                <button class="btn">Green</button>
+            <div onclick="red()">
+                <button class="btn btn-primary" style="background-color: red;">Red</button>
             </div>
-            <div class="buttons-area" onclick="blue()" style="padding-top: 50px;">
-                <button class="btn">Blue</button>
+            <div onclick="green()">
+                <button class="btn btn-primary" style="background-color: green;">Green</button>
             </div>
-            <div class="buttons-area" onclick="yellow()" style="padding-top: 50px;">
-                <button class="btn">Yellow</button>
+            <div onclick="blue()">
+                <button class="btn btn-primary" style="background-color: blue;">Blue</button>
             </div>
-
-            
-
+            <div onclick="yellow()">
+                <button class="btn btn-primary" style="background-color: yellow;">Yellow</button>
+            </div>
         </div>
         <script src="script.js"></script>
         <script>
             var div = document.getElementById("quotegen");
             var border = document.getElementById("border").className;
-            
+
             function red() {
                 div.setAttribute("id", "redDiv");
                 border.setAttribute("id", "redDiv");
             }
+
             function green() {
                 div.setAttribute("id", "greenDiv");
             }
+
             function blue() {
                 div.setAttribute("id", "blueDiv");
             }
+
             function yellow() {
                 div.setAttribute("id", "yellowDiv");
             }
