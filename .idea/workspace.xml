@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d267387-cde6-44ef-b4b0-8005ea81024a" name="Default Changelist" comment="" />
+    <list default="true" id="9d267387-cde6-44ef-b4b0-8005ea81024a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -70,6 +72,7 @@
       <workItem from="1569376824473" duration="3095000" />
       <workItem from="1569404071609" duration="358000" />
       <workItem from="1569428088344" duration="1383000" />
+      <workItem from="1569430822315" duration="272000" />
     </task>
     <servers />
   </component>
