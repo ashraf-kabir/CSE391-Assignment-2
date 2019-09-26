@@ -19,13 +19,15 @@
     </script>
 
     <script>
-        
+        function clearContents() {
+            document.getElementById("myP").value = "";
+        }
     </script>
 
     <form action="">
         <textarea id="myP" rows="10" maxlength="255" required></textarea><br>
         <input type="button" id="1" value="uppercase" onclick="toggle(this);">
-        <input type="button" id="2" value="Clear all" onclick="toggle(this);">
+        <input type="button" id="2" value="Clear all" onclick="clearContents();">
     </form>
 
 </body>
