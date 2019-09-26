@@ -46,6 +46,19 @@
         }
     </script>
 
+    <script>
+        function revWords(str) {
+            words = str.split(" ");
+            j = words.length - 1;
+            backWords = new Array();
+            for (i = 0; i < words.length; i++) {
+                backWords[j] = words[i];
+                j--;
+            }
+            document.part03.tarea.value = backWords.join(" ");
+        }
+    </script>
+
     <form  name="part03" action="">
         <br>
         <h2>Part 03</h2>
@@ -54,6 +67,9 @@
         <input type="button" id="1" value="uppercase" onclick="toggle(this);">
         <input type="button" id="2" value="Clear all" onclick="clearContents();">
         <input type="button" id="3" value="Sort Alphabetically" onclick="sortvalues(0)">
+        <input type="button" id="4" value="Sort Numerically" onclick="sortvalues(1)">
+        <input type="button" id="5" value="Reverse" onclick="revWords(document.part03.tarea.value)">
+
     </form>
 
 </body>
