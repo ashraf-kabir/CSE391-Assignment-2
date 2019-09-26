@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>TestPart03</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -59,6 +62,21 @@
         }
     </script>
 
+    <script>
+        jQuery(function ($) {
+            $("#six").on("click", function () {
+                var avalue = $('#myP').val();
+                var newVal = avalue.replace(/^\s*[\r\n]/gm, '');
+
+                //var finalResults = newVal.replace("\n", "");
+                $('#myP').val(newVal);
+                var myText = $('#myP').val();
+                var remove_space = myText.replace(/ /g,'');
+                $('#myP').val(remove_space);
+            });
+        })
+    </script>
+
     <form  name="part03" action="">
         <br>
         <h2>Part 03</h2>
@@ -69,7 +87,7 @@
         <input type="button" id="3" value="Sort Alphabetically" onclick="sortvalues(0)">
         <input type="button" id="4" value="Sort Numerically" onclick="sortvalues(1)">
         <input type="button" id="5" value="Reverse" onclick="revWords(document.part03.tarea.value)">
-
+        <input type="button" id="six" value="Strip Blank" onclick="">
     </form>
 
 </body>
