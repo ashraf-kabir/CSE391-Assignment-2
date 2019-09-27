@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d267387-cde6-44ef-b4b0-8005ea81024a" name="Default Changelist" comment="" />
+    <list default="true" id="9d267387-cde6-44ef-b4b0-8005ea81024a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lineNumber/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lineNumber/tln.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lineNumber/tln.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lineNumber/tln.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lineNumber/tln.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testPart03.html" beforeDir="false" afterPath="$PROJECT_DIR$/testPart03.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lineNumber" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,6 +84,7 @@
       <workItem from="1569472903075" duration="6469000" />
       <workItem from="1569484814033" duration="1603000" />
       <workItem from="1569502230070" duration="307000" />
+      <workItem from="1569558479783" duration="1390000" />
     </task>
     <servers />
   </component>
