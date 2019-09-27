@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d267387-cde6-44ef-b4b0-8005ea81024a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lineNumber/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lineNumber/tln.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lineNumber/tln.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lineNumber/tln.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lineNumber/tln.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testPart03.html" beforeDir="false" afterPath="$PROJECT_DIR$/testPart03.html" afterDir="false" />
-    </list>
+    <list default="true" id="9d267387-cde6-44ef-b4b0-8005ea81024a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +44,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CSE391-Assignment-2\lineNumber" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -84,7 +81,7 @@
       <workItem from="1569472903075" duration="6469000" />
       <workItem from="1569484814033" duration="1603000" />
       <workItem from="1569502230070" duration="307000" />
-      <workItem from="1569558479783" duration="1390000" />
+      <workItem from="1569558479783" duration="1473000" />
     </task>
     <servers />
   </component>
