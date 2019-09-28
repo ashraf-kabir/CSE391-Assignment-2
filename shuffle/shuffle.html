@@ -17,6 +17,12 @@
                 //var str = links[i];
                 //alert(i+"-  "+str);
             }
+            for (let i = texts.length - 1; i > 0; i--){
+                const j = Math.floor(Math.random() * i)
+                const temp = texts[i];
+                texts[i] = texts[j];
+                texts[j] = temp
+            }
             for (var i = 0; i < texts.length; i++) {
                 alert(i + "-  " + texts[i]);
             }
