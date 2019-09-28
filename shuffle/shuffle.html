@@ -27,8 +27,12 @@
             }
 
             for (var i = 0; i < texts.length; i++) {
-                alert(i + "-  " + texts[i]);
+                //alert(i + "-  " + texts[i]);
+                var x = texts[i];
+                var textarea = document.getElementById("links");
+                textarea.value = texts.join("\n");
             }
+            
         }
     </script>
 
