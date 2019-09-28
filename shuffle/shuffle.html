@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shuffle</title>
+
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script>
+        function check() {
+            var lines = $('#links').val().split(/\n/);
+            var texts = [];
+            for (var i = 0; i < lines.length; i++) {
+                if (/\S/.test(lines[i])) {
+                    texts.push($.trim(lines[i]));
+                }
+                //var links = texts;
+                //var str = links[i];
+                //alert(i+"-  "+str);
+            }
+            for (var i = 0; i < texts.length; i++) {
+                alert(i + "-  " + texts[i]);
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+    <textarea id="links" name="upload" cols=80 rows=10></textarea>
+    <input type="submit" id="getsize" name="getsize" value="textarea to array" onclick="check()"/>
+
+</body>
+</html>
