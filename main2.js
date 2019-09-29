@@ -25,20 +25,26 @@ function myResult() {
 // now compare the input and resultType value and add formula
 
     if (inputTypeValue === "pound" && resultTypeValue === "kilogram") {
-        //this is meter to kilometer formula
+        //this is pound to kilogram formula
         result.value = Number(input.value) * 0.4356;
+        document.getElementById('result2').innerHTML = result.value + " kgs";
     } else if (inputTypeValue === "pound" && resultTypeValue === "pound") {
-        //this is meter to meter formula
-        result.value = input.value
+        //this is pound to pound formula
+        result.value = input.value;
+        document.getElementById('result2').innerHTML = result.value + " lbs";
     }
 
 
     if (inputTypeValue === "kilogram" && resultTypeValue === "pound") {
-        //this is kilometer to meter formula
+        //this is kilogram to pound formula
         result.value = Number(input.value) * 2.205;
+        document.getElementById('result2').innerHTML = result.value + " lbs";
+
     } else if (inputTypeValue === "kilogram" && resultTypeValue === "kilogram") {
-        //this is kilometer to kilometer formula
-        result.value = input.value
+        //this is kilogram to kilogram formula
+        result.value = input.value;
+        document.getElementById('result2').innerHTML = result.value + " kgs";
+
     }
 
 
