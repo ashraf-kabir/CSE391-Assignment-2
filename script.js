@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // DATA
     // 1. dataset of quotes and their authors
-    const quotesPool = [["Less is More", "Ludwig Mies Van Der Rohe"],
-        ["God is in the Details", "Ludwig Mies Van Der Rohe"],
-        ["Architecture starts when you carefully put two bricks together. There it begins", "Ludwig Mies Van Der Rohe"],
-        ["Good building come from good people and all problems are solved by good design", "Stephen Gardiner"],
-        ["There are 360 degrees, so why stick to one?", "Zaha Hadid"],
-        ["Form ever follows function", "Louis Sullivan"],
-        ["Recognizing the need is the primary condition of design", "Charles Eames"],
+    const quotesPool = [["Nobody likes being alone that much. I don't go out of my way to make friends, that's all. It just leads to disappointment. ", "Haruki Murakami"],
+        ["Everything passes. Nobody gets anything for keeps. And that's how we've got to live.", "Haruki Murakami"],
+        ["The more violent the storm, the quicker it passes.", "Paulo Coelho"],
+        ["When you want something, all the universe conspires in helping you to achieve it.", "Paulo Coelho"],
+        ["Tell your heart that the fear of suffering is worse than the suffering itself. And no heart has ever suffered when it goes in search of its dream.", "Paulo Coelho"],
+        ["A child can teach an adult three things: to be happy for no reason, to always be busy with something, and to know how to demand with all his might that which he desires.", "Paulo Coelho"],
+        ["I dream. Sometimes I think that's the only right thing to do.", "Haruki Murakami"],
         ["Architecture is the learned game, correct and magnificent, of forms assembled in the light", "Le Corbusier"],
         ["An idea is salvation by imagination", "Frank Lloyd Wright"],
         ["When I'm working on a problem, I never think about beauty. But when I've finished, if the solution is not beautiful I know it's wrong", "Buckminster Fuller"],
