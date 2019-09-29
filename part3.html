@@ -9,6 +9,7 @@
 </head>
 <body>
 
+    <!-- Uppercase lowercase -->
     <script type="text/javascript">
         function toggle(button) {
             if (document.getElementById("1").value == "uppercase") {
@@ -21,12 +22,14 @@
         }
     </script>
 
+    <!-- Clear All -->
     <script>
         function clearContents() {
             document.getElementById("myP").value = "";
         }
     </script>
 
+    <!-- sort alphabetically -->
     <script type="text/javascript">
 
         function sortit(a,b){
@@ -49,6 +52,7 @@
         }
     </script>
 
+    <!-- sort numerically -->
     <script>
         function revWords(str) {
             words = str.split(" ");
@@ -62,6 +66,7 @@
         }
     </script>
 
+    <!-- strip blank, remove empty line -->
     <script>
         jQuery(function ($) {
             $("#six").on("click", function () {
@@ -70,13 +75,14 @@
 
                 //var finalResults = newVal.replace("\n", "");
                 $('#myP').val(newVal);
-                var myText = $('#myP').val();
-                var remove_space = myText.replace(/ /g,'');
-                $('#myP').val(remove_space);
+                //var myText = $('#myP').val();
+                //var remove_space = myText.replace(/ /g,'');
+                //$('#myP').val(remove_space);
             });
         })
     </script>
 
+    <!-- add line numbers -->
     <script>
         function lineNum() {
             var e = document.getElementById('myP').value;
@@ -90,6 +96,7 @@
         }
     </script>
 
+    <!-- shuffle lines -->
     <script>
         function shuffleLines() {
             var lines = $('#myP').val().split(/\n/);
@@ -131,7 +138,6 @@
         <input type="button" id="six" value="Strip Blank">
         <input type="button" id="seven" value="Add Line Numbers" onclick="lineNum();">
         <input type="button" id="eight" value="Shuffle" onclick="shuffleLines();">
-
     </form>
 
 </body>
