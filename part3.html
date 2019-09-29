@@ -77,6 +77,47 @@
         })
     </script>
 
+    <script>
+        function lineNum() {
+            var e = document.getElementById('myP').value;
+            var arr = e.split("\n");
+            var w = "";
+            for (i = 0; i<arr.length - 1; i++) {
+                j = i+1;
+                w = w + j + " " + arr[i] + "\n";
+            }
+            document.getElementById('myP').value = w;
+        }
+    </script>
+
+    <script>
+        function shuffleLines() {
+            var lines = $('#myP').val().split(/\n/);
+            var texts = [];
+            for (var i = 0; i < lines.length; i++) {
+                if (/\S/.test(lines[i])) {
+                    texts.push($.trim(lines[i]));
+                }
+            }
+
+            //shuffle
+            for (let i = texts.length - 1; i > 0; i--){
+                const j = Math.floor(Math.random() * i);
+                const temp = texts[i];
+                texts[i] = texts[j];
+                texts[j] = temp;
+            }
+
+            for (var i = 0; i < texts.length; i++) {
+                //alert(i + "-  " + texts[i]);
+                var x = texts[i];
+                var textarea = document.getElementById("myP");
+                textarea.value = texts.join("\n");
+            }
+
+        }
+    </script>
+
     <form  name="part03" action="">
         <br>
         <h2>Part 03</h2>
@@ -88,6 +129,8 @@
         <input type="button" id="4" value="Sort Numerically" onclick="sortvalues(1)">
         <input type="button" id="5" value="Reverse" onclick="revWords(document.part03.tarea.value)">
         <input type="button" id="six" value="Strip Blank">
+        <input type="button" id="seven" value="Add Line Numbers" onclick="lineNum();">
+        <input type="button" id="eight" value="Shuffle" onclick="shuffleLines();">
 
     </form>
 
