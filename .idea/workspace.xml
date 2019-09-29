@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d267387-cde6-44ef-b4b0-8005ea81024a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part01.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/a2part01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part02.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/a2part02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +48,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CSE391-Assignment-2\css" />
+      <recent name="C:\xampp\htdocs\CSE391-Assignment-2\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CSE391-Assignment-2\lineNumber" />
     </key>
@@ -94,7 +94,7 @@
       <workItem from="1569693922591" duration="1178000" />
       <workItem from="1569700172616" duration="692000" />
       <workItem from="1569721744543" duration="5490000" />
-      <workItem from="1569736742467" duration="2810000" />
+      <workItem from="1569736742467" duration="3126000" />
     </task>
     <servers />
   </component>

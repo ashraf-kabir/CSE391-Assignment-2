@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="css/a2style2.css">
 
+    <script src="vendor/jquery/jquery.min.js"></script>
+
     <style>
         #redDiv {
             background-color: red;
@@ -306,12 +308,12 @@
                 function lineNum() {
                     var e = document.getElementById('myP').value;
                     var arr = e.split("\n");
-                    var w = "";
-                    for (i = 0; i<arr.length - 1; i++) {
+                    var p = "";
+                    for (i = 0; i<arr.length; i++) {
                         j = i+1;
-                        w = w + j + " " + arr[i] + "\n";
+                        p = p + j + " " + arr[i] + "\n";
                     }
-                    document.getElementById('myP').value = w;
+                    document.getElementById('myP').value = p;
                 }
             </script>
 
@@ -344,7 +346,7 @@
                 }
             </script>
 
-            <form  name="part03" action="">
+            <form name="part03" action="">
                 <br>
                 <h1>Part 03</h1>
                 <label for="myP"></label>
