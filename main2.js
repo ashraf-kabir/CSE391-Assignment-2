@@ -44,7 +44,6 @@ function myResult() {
         //this is kilogram to kilogram formula
         result.value = input.value;
         document.getElementById('result2').innerHTML = result.value + " kgs";
-
     }
 
 
