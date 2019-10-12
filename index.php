@@ -98,7 +98,7 @@
 
         </div>
         <br><br><br><br><br>
-        <script src="js/a2part01.js"></script>
+        <script src="js/a2part1p1.js"></script>
         <script>
             var div = document.getElementById("quotegen");
             var border = document.getElementById("border").className;
@@ -147,7 +147,7 @@
                 <span id="result2" style="margin-left: 25px; margin-top: 40px; padding-top: 30px; font-weight: bold;">&nbsp;</span>
 
             </div>
-            <script src="js/a2part02.js"></script>
+            <script src="js/a2part1p2.js"></script>
         </div>
         <br><br><br>
 
@@ -284,14 +284,14 @@
                     document.part03.tarea.value = backWords.join(" ");
                 }
             </script>
-            <script language="JavaScript" type="text/javascript">
+            <script>
                 function reverseLines(something) {
                     var textsplit = something.value;
                     var arr = textsplit.split('\n');
-                    numberofParts = arr.length;
+                    var numberOfParts = arr.length;
                     var revStr = "";
                     var c;
-                    for (c = numberofParts - 1; c >= 0; c--) {
+                    for (c = numberOfParts - 1; c >= 0; c--) {
                         revStr = revStr + arr[c];
                         if (c > 0) {
                             revStr = revStr + "\n";
