@@ -288,7 +288,6 @@
                 function reverseLines(something) {
                     var textsplit = something.value;
                     var arr = textsplit.split('\n');
-                    var numberofParts = 0;
                     numberofParts = arr.length;
                     var revStr = "";
                     var c;
