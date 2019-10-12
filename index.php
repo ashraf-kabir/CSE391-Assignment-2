@@ -249,7 +249,7 @@
                 }
             </script>
 
-            <!-- sort alphabetically -->
+            <!-- sort alphabetically & numerically -->
             <script type="text/javascript">
 
                 function sortit(a, b) {
@@ -271,7 +271,7 @@
                 }
             </script>
 
-            <!-- sort numerically -->
+            <!-- reverse -->
             <script>
                 function revWords(str) {
                     words = str.split(" ");
@@ -282,6 +282,23 @@
                         j--;
                     }
                     document.part03.tarea.value = backWords.join(" ");
+                }
+            </script>
+            <script language="JavaScript" type="text/javascript">
+                function reverseLines(something) {
+                    var textsplit = something.value;
+                    var arr = textsplit.split('\n');
+                    var numberofParts = 0;
+                    numberofParts = arr.length;
+                    var revStr = "";
+                    var c;
+                    for (c = numberofParts - 1; c >= 0; c--) {
+                        revStr = revStr + arr[c];
+                        if (c > 0) {
+                            revStr = revStr + "\n";
+                        }
+                    }
+                    something.value = revStr;
                 }
             </script>
 
@@ -355,7 +372,7 @@
                 <input class="btn-primary" type="button" id="3" value="Sort Alphabetically" onclick="sortvalues(0)">
                 <input class="btn-primary" type="button" id="4" value="Sort Numerically" onclick="sortvalues(1)">
                 <input class="btn-primary" type="button" id="5" value="Reverse"
-                       onclick="revWords(document.part03.tarea.value)">
+                       onclick="reverseLines(document.part03.tarea)">
                 <input class="btn-primary" type="button" id="six" value="Strip Blank">
                 <input class="btn-primary" type="button" id="seven" value="Add Line Numbers" onclick="lineNum();">
                 <input class="btn-primary" type="button" id="eight" value="Shuffle" onclick="shuffleLines();">
