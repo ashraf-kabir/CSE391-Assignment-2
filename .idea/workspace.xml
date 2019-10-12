@@ -27,6 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1RI1YQZNVGW3202PcVZzCmX9Irj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -98,6 +99,7 @@
       <workItem from="1570160371145" duration="85000" />
       <workItem from="1570705297803" duration="213000" />
       <workItem from="1570715443040" duration="1753000" />
+      <workItem from="1570883013019" duration="1249000" />
     </task>
     <servers />
   </component>
