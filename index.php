@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Random Quote Generator</title>
+    <title>Assignment 2</title>
     <link href="css/a2reset.css" rel="stylesheet">
     <link href="css/a2style1.css" rel="stylesheet">
 
