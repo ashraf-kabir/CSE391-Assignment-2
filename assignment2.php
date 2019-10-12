@@ -161,7 +161,8 @@
                    style="font-size: 19px; font-family: Arial; text-align: right;background-color: crimson; padding: 20px; margin-bottom: 30px;">
                 <tr>
                     <td width="13%">Input Field:</td>
-                    <td width="29%" style="text-align: left;"><input name="box1" type="text" onkeyup="calculate();" id="box1"/></td>
+                    <td width="29%" style="text-align: left;"><input name="box1" type="text" onkeyup="calculate();"
+                                                                     id="box1"/></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -251,23 +252,22 @@
             <!-- sort alphabetically -->
             <script type="text/javascript">
 
-                function sortit(a,b){
-                    return(a-b)
+                function sortit(a, b) {
+                    return (a - b)
                 }
 
-                function sortvalues(param){
+                function sortvalues(param) {
                     var inputvalues = document.part03.tarea.value.split(" ") // store input as array of words
-                    if (param == 0){ //if sort alphabetically
+                    if (param == 0) { //if sort alphabetically
                         inputvalues.sort()
-                    }
-                    else{ //else if sort numerically
+                    } else { //else if sort numerically
                         inputvalues.sort(sortit)
                     }
-                    document.part03.tarea.value=''
-                    for (i=0; i<inputvalues.length-1; i++){
-                        document.part03.tarea.value = document.part03.tarea.value + inputvalues[i]+" "
+                    document.part03.tarea.value = ''
+                    for (i = 0; i < inputvalues.length - 1; i++) {
+                        document.part03.tarea.value = document.part03.tarea.value + inputvalues[i] + " "
                     }
-                    document.part03.tarea.value += inputvalues[inputvalues.length-1]
+                    document.part03.tarea.value += inputvalues[inputvalues.length - 1]
                 }
             </script>
 
@@ -307,8 +307,8 @@
                     var e = document.getElementById('myP').value;
                     var arr = e.split("\n");
                     var p = "";
-                    for (i = 0; i<arr.length; i++) {
-                        j = i+1;
+                    for (i = 0; i < arr.length; i++) {
+                        j = i + 1;
                         p = p + j + " " + arr[i] + "\n";
                     }
                     document.getElementById('myP').value = p;
@@ -327,7 +327,7 @@
                     }
 
                     //shuffle
-                    for (let i = texts.length - 1; i > 0; i--){
+                    for (let i = texts.length - 1; i > 0; i--) {
                         const j = Math.floor(Math.random() * i);
                         const temp = texts[i];
                         texts[i] = texts[j];
@@ -354,7 +354,8 @@
                 <input class="btn-primary" type="button" id="2" value="Clear all" onclick="clearContents();">
                 <input class="btn-primary" type="button" id="3" value="Sort Alphabetically" onclick="sortvalues(0)">
                 <input class="btn-primary" type="button" id="4" value="Sort Numerically" onclick="sortvalues(1)">
-                <input class="btn-primary" type="button" id="5" value="Reverse" onclick="revWords(document.part03.tarea.value)">
+                <input class="btn-primary" type="button" id="5" value="Reverse"
+                       onclick="revWords(document.part03.tarea.value)">
                 <input class="btn-primary" type="button" id="six" value="Strip Blank">
                 <input class="btn-primary" type="button" id="seven" value="Add Line Numbers" onclick="lineNum();">
                 <input class="btn-primary" type="button" id="eight" value="Shuffle" onclick="shuffleLines();">
