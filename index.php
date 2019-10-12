@@ -323,6 +323,7 @@
                     var e = document.getElementById('myP').value;
                     var arr = e.split("\n");
                     var p = "";
+                    var i, j;
                     for (i = 0; i < arr.length; i++) {
                         j = i + 1;
                         p = p + j + " " + arr[i] + "\n";
