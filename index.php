@@ -160,9 +160,15 @@
             <table width="100%" border="0" align="center"
                    style="font-size: 19px; font-family: Arial; text-align: right;background-color: crimson; padding: 20px; margin-bottom: 30px;">
                 <tr>
+                    <td>&nbsp;</td>
+                    <td></td>
+                </tr>
+                <tr>
                     <td width="13%" style="padding-right: 5px;">Input Field:</td>
-                    <td width="29%" style="text-align: left;"><input style="text-align: left; padding-left: 5px; padding-right: 5px;" name="box1" type="text" onkeyup="calculate();"
-                                                                     id="box1"/></td>
+                    <td width="29%" style="text-align: left;"><input
+                                style="text-align: left; padding-left: 5px; padding-right: 5px;" name="box1" type="text"
+                                onkeyup="calculate();"
+                                id="box1"/></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -251,24 +257,33 @@
 
             <!-- sort alphabetically & numerically -->
             <script type="text/javascript">
-
                 function sortit(a, b) {
                     return (a - b)
                 }
 
                 function sortvalues(param) {
-                    var inputvalues = document.part03.tarea.value.split(" "); // store input as array of words
+                    var inputvalues = document.form03.tarea.value.split(" "); // store input as array of words
                     if (param == 0) { //if sort alphabetically
                         inputvalues.sort()
                     } else { //else if sort numerically
                         inputvalues.sort(sortit)
                     }
-                    document.part03.tarea.value = '';
+                    document.form03.tarea.value = '';
                     var i;
                     for (i = 0; i < inputvalues.length - 1; i++) {
-                        document.part03.tarea.value = document.part03.tarea.value + inputvalues[i] + " "
+                        document.form03.tarea.value = document.form03.tarea.value + inputvalues[i] + " ";
                     }
-                    document.part03.tarea.value += inputvalues[inputvalues.length - 1]
+                    document.form03.tarea.value += inputvalues[inputvalues.length - 1];
+                }
+            </script>
+            <script>
+                function alphabetSort() {
+                    var inp = document.getElementById("myP");
+                    var arr = inp.value.split('\n');
+                    arr.sort();
+                    var arr2 = arr.filter(arr => arr.length > 0);
+                    var ans = arr2.join("\n");
+                    document.form03.tarea.value = ans;
                 }
             </script>
 
@@ -282,7 +297,7 @@
                         backWords[j] = words[i];
                         j--;
                     }
-                    document.part03.tarea.value = backWords.join(" ");
+                    document.form03.tarea.value = backWords.join(" ");
                 }
             </script>
             <script>
@@ -362,7 +377,7 @@
                 }
             </script>
 
-            <form name="part03" action="">
+            <form name="form03" action="">
                 <br>
                 <h1>Part 03</h1>
                 <label for="myP"></label>
@@ -370,10 +385,10 @@
 
                 <input class="btn-primary" type="button" id="1" value="uppercase" onclick="toggle(this);">
                 <input class="btn-primary" type="button" id="2" value="Clear all" onclick="clearContents();">
-                <input class="btn-primary" type="button" id="3" value="Sort Alphabetically" onclick="sortvalues(0)">
+                <input class="btn-primary" type="button" id="3" value="Sort Alphabetically" onclick="alphabetSort()">
                 <input class="btn-primary" type="button" id="4" value="Sort Numerically" onclick="sortvalues(1)">
                 <input class="btn-primary" type="button" id="5" value="Reverse"
-                       onclick="reverseLines(document.part03.tarea)">
+                       onclick="reverseLines(document.form03.tarea)">
                 <input class="btn-primary" type="button" id="six" value="Strip Blank">
                 <input class="btn-primary" type="button" id="seven" value="Add Line Numbers" onclick="lineNum();">
                 <input class="btn-primary" type="button" id="eight" value="Shuffle" onclick="shuffleLines();">
