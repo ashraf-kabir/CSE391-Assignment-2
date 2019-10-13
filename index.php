@@ -264,6 +264,7 @@
                         inputvalues.sort(sortit)
                     }
                     document.part03.tarea.value = '';
+                    var i;
                     for (i = 0; i < inputvalues.length - 1; i++) {
                         document.part03.tarea.value = document.part03.tarea.value + inputvalues[i] + " "
                     }
@@ -286,8 +287,8 @@
             </script>
             <script>
                 function reverseLines(something) {
-                    var textsplit = something.value;
-                    var arr = textsplit.split('\n');
+                    //var textsplit = something.value;
+                    var arr = something.value.split('\n');
                     var numberOfParts = arr.length;
                     var revStr = "";
                     var c;
