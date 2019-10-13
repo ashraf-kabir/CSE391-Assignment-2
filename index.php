@@ -263,7 +263,7 @@
                     } else { //else if sort numerically
                         inputvalues.sort(sortit)
                     }
-                    document.part03.tarea.value = ''
+                    document.part03.tarea.value = '';
                     for (i = 0; i < inputvalues.length - 1; i++) {
                         document.part03.tarea.value = document.part03.tarea.value + inputvalues[i] + " "
                     }
