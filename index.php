@@ -207,7 +207,7 @@
 
             <script>
                 function calculate() {
-                    var values = document.getElementById('box1').value.split(/,/g);
+                    var values = document.getElementById('box1').value.split(', ');
                     var sum = values.reduce(function (a, b) {
                         return parseInt(a) + parseInt(b);
                     });
