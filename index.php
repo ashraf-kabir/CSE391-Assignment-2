@@ -160,8 +160,8 @@
             <table width="100%" border="0" align="center"
                    style="font-size: 19px; font-family: Arial; text-align: right;background-color: crimson; padding: 20px; margin-bottom: 30px;">
                 <tr>
-                    <td width="13%">Input Field:</td>
-                    <td width="29%" style="text-align: left;"><input name="box1" type="text" onkeyup="calculate();"
+                    <td width="13%" style="padding-right: 5px;">Input Field:</td>
+                    <td width="29%" style="text-align: left;"><input style="text-align: left; padding-left: 5px; padding-right: 5px;" name="box1" type="text" onkeyup="calculate();"
                                                                      id="box1"/></td>
                 </tr>
                 <tr>
@@ -169,31 +169,31 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Max:</td>
+                    <td style="padding-right: 5px;">Max:</td>
                     <td style="text-align: left; color: white;">
                         <div id="max"></div>
                     </td>
                 </tr>
                 <tr>
-                    <td>Min:</td>
+                    <td style="padding-right: 5px;">Min:</td>
                     <td style="text-align: left; color: white;">
                         <div id="min"></div>
                     </td>
                 </tr>
                 <tr>
-                    <td>Sum:</td>
+                    <td style="padding-right: 5px;">Sum:</td>
                     <td style="text-align: left; color: white;">
                         <div id="sum"></div>
                     </td>
                 </tr>
                 <tr>
-                    <td>Average:</td>
+                    <td style="padding-right: 5px;">Average:</td>
                     <td style="text-align: left; color: white;">
                         <div id="avg"></div>
                     </td>
                 </tr>
                 <tr>
-                    <td>Reverse Order:</td>
+                    <td style="padding-right: 5px;">Reverse Order:</td>
                     <td style="text-align: left; color: white;">
                         <div id="reverse"></div>
                     </td>
