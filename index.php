@@ -257,7 +257,7 @@
                 }
 
                 function sortvalues(param) {
-                    var inputvalues = document.part03.tarea.value.split(" ") // store input as array of words
+                    var inputvalues = document.part03.tarea.value.split(" "); // store input as array of words
                     if (param == 0) { //if sort alphabetically
                         inputvalues.sort()
                     } else { //else if sort numerically
