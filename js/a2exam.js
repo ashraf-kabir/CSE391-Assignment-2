@@ -5,7 +5,7 @@ var resultType = document.getElementById('resultType');
 var inputTypeValue, resultTypeValue;
 
 // now add listener
-input.addEventListener("keyup", myResult);
+input.addEventListener("onclick", myResult);
 inputType.addEventListener("change", myResult);
 resultType.addEventListener("change", myResult);
 

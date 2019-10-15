@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b869e7e-08d2-4efe-9466-4516a04c88c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/a2exam.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/a2exam.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2exam.php" beforeDir="false" afterPath="$PROJECT_DIR$/a2exam.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/a2part1p2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/a2part1p2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -57,6 +59,8 @@
       <workItem from="1570893282715" duration="491000" />
       <workItem from="1570902116871" duration="5781000" />
       <workItem from="1570931683306" duration="4540000" />
+      <workItem from="1571070269410" duration="2647000" />
+      <workItem from="1571103838675" duration="6935000" />
     </task>
     <servers />
   </component>
