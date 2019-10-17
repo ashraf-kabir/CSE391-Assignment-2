@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b869e7e-08d2-4efe-9466-4516a04c88c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/a2exam.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a2exam.php" beforeDir="false" afterPath="$PROJECT_DIR$/a2exam.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/a2part1p2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/a2part1p2.js" afterDir="false" />
-    </list>
+    <list default="true" id="0b869e7e-08d2-4efe-9466-4516a04c88c6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +56,7 @@
       <workItem from="1570931683306" duration="4540000" />
       <workItem from="1571070269410" duration="2647000" />
       <workItem from="1571103838675" duration="6935000" />
+      <workItem from="1571306917708" duration="14000" />
     </task>
     <servers />
   </component>
