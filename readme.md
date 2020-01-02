@@ -1,2 +1,3 @@
-# CSE391-Assignment-2
+# CSE391
+# Programming for the Internet
  javascript assignment
